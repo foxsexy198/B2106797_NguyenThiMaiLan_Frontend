@@ -15,7 +15,7 @@
 </script>
 
 <template>
-    <ul class="lis-group">
+    <ul class="list-group">
         <li class="list-group-item"
             v-for="(contact, index) in contacts"
             :key="contact._id"
