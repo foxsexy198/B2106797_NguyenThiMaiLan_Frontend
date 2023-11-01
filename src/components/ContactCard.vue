@@ -1,9 +1,10 @@
 <script>
     export default {
+        name: 'ContactCard',
         props: {
             contact: {type: Object, required: true},
         },
-        name: 'ContactCard',
+        
     };
 </script>
 
