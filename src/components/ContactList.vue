@@ -4,7 +4,7 @@
             contacts: {type: Array, default: []},
             activeIndex: {type: Number, default: -1},
         },
-
+        name: 'ContactList',
         emits: ["update:activeIndex"],
         methods: {
             updateActiveIndex(index) {

@@ -3,7 +3,7 @@
         props: {
             modelValue: {type: String, default: ""},
         },
-
+        name: 'InputSearch',
         emits: ["submit", "update:modelValue"],
         methods: {
             updateModelValue(e) {

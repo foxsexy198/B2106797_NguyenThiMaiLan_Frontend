@@ -1,13 +1,15 @@
 <script>
-import AppHeader from "./AppHeader.vue";
+import AppHeader from './components/AppHeader.vue';
   export default {
     components: {
       AppHeader,
     },
+    name: 'App',
   };
 </script>
 
 <template>
+  
   <div id="app">
     <AppHeader />
 

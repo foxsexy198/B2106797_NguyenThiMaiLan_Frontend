@@ -1,5 +1,5 @@
 import {createWebHistory, createRouter} from "vue-router";
-import ContactBook from "@/views/ContactBook.vue";
+import ContactBook from "../views/ContactBook.vue";
 
 const routes = [
     {

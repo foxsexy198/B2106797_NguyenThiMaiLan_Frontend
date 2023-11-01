@@ -1,8 +1,8 @@
 <script>
-    import ContactCard from "@/components/ContactCard.vue";
-    import InputSearch from "@/components/InputSearch.vue";
-    import ContactList from "@/components/ContactList.vue";
-    import ContactService from "@/service/contact.service";
+    import ContactCard from "../components/ContactCard.vue";
+    import InputSearch from "../components/InputSearch.vue";
+    import ContactList from "../components/ContactList.vue";
+    import ContactService from "../service/contact.service";
 
     export default {
         components: {
@@ -10,6 +10,7 @@
             InputSearch,
             ContactList,
         },
+        name: 'ContactBook',
         data(){
             return {
                 searchText: "",
