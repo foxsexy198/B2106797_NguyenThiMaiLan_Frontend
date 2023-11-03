@@ -10,7 +10,7 @@ import AppHeader from './components/AppHeader.vue';
 </script>
 
 <template>
-  <div id="app-container">
+  <div id="app">
     <AppHeader />
 
     <div class="container mt-3">
