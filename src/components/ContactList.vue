@@ -1,8 +1,8 @@
 <script>
     export default {
         props: {
-            contacts: {type: Array, default: []},
-            activeIndex: {type: Number, default: -1},
+            contacts: { type: Array, default: [] },
+            activeIndex: { type: Number, default: -1 },
         },
         name: 'ContactList',
         emits: ["update:activeIndex"],

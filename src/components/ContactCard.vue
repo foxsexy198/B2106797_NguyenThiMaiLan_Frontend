@@ -2,9 +2,8 @@
     export default {
         name: 'ContactCard',
         props: {
-            contact: {type: Object, required: true},
+            contact: { type: Object, required: true },
         },
-        
     };
 </script>
 

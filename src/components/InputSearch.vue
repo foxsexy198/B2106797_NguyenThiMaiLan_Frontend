@@ -1,7 +1,7 @@
 <script>
     export default {
         props: {
-            modelValue: {type: String, default: ""},
+            modelValue: { type: String, default: "" },
         },
         name: 'InputSearch',
         emits: ["submit", "update:modelValue"],
@@ -27,6 +27,7 @@
             @input="updateModelValue"
             @keyup.enter="submit"
         >
+
         <div class="input-group-append">
             <button
                 class="btn btn-outline-secondary"

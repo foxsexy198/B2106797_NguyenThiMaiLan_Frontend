@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+
   export default {
     components: {
       AppHeader,
@@ -9,8 +10,7 @@ import AppHeader from './components/AppHeader.vue';
 </script>
 
 <template>
-  
-  <div id="app">
+  <div id="app-container">
     <AppHeader />
 
     <div class="container mt-3">
